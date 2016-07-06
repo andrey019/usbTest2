@@ -21,6 +21,7 @@ public class form1 {
     private JTextArea textArea1;
     private JPanel panelRadio;
     private JPanel panelText;
+    private JTabbedPane tabbedPane1;
 
     public form1() {
         button1.addActionListener(new ActionListener() {
@@ -74,6 +75,13 @@ public class form1 {
 
 
     public static void main(String[] args) {
+        try {
+            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
         JFrame frame = new JFrame("form1");
         form1 form1 = new form1();
         frame.setContentPane(form1.panel1);
