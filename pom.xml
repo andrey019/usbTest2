@@ -47,7 +47,7 @@
     </dependencies>
 
     <build>
-        <finalName>exec</finalName>
+        <finalName>atmel</finalName>
         <plugins>
 
             <plugin>
@@ -98,7 +98,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
                             <!--<mainClass>com.atmel.atusbhid.AtUsbHidGui</mainClass>-->
-                            <mainClass>form1</mainClass>
+                            <mainClass>com.atmel.atusbhid.AtUsbHidGui</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
